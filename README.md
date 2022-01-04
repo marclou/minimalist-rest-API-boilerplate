@@ -177,8 +177,9 @@ logger.debug('message'); // level 5
 In development mode, log messages of all severity levels will be printed to the console.
 
 In production mode, only `info`, `warn`, and `error` logs will be printed to the console.\
-It is up to the server (or process manager) to actually read them from the console and store them in log files.\
-This app uses pm2 in production mode, which is already configured to store the logs in log files.
+In production mode, `error` logs will be stored in the MongoDB under the 'log' collection.\
+
+This app uses pm2 in production mode, which is configured to store the logs in log files.
 
 Note: API request information (request url, response code, timestamp, etc.) are also automatically logged (using [morgan](https://github.com/expressjs/morgan)).
 

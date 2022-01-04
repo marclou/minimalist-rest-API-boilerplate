@@ -44,6 +44,7 @@
     "swagger-ui-express": "^4.1.6",
     "validator": "^13.0.0",
     "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.7",
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {
