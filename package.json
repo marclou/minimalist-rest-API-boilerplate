@@ -1,9 +1,9 @@
 {
-  "name": "magichabit-api",
+  "name": "minimalist-rest-API-boilerplate",
   "version": "0.0.1",
-  "description": "Stick to your damn habits",
+  "description": "A minimalist boilerplate to build REST APIs",
   "main": "src/index.js",
-  "repository": "https://github.com/marclou/magichabit-api.git",
+  "repository": "https://github.com/marclou/minimalist-rest-API-boilerplate.git",
   "author": "Marc Lou",
   "license": "MIT",
   "engines": {
